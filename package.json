@@ -1,0 +1,36 @@
+{
+  "name": "module_9-babel-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "@babel --presets env main.js -o build/main.bundle.js",
+    "start": "webpack serve",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitaliy-1915/Module_9-BABEL-WEBPACK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitaliy-1915/Module_9-BABEL-WEBPACK/issues"
+  },
+  "homepage": "https://github.com/Vitaliy-1915/Module_9-BABEL-WEBPACK#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
